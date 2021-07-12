@@ -15,12 +15,12 @@ C:/Users/gillian/_Client/NeverGrowUp/Unity/NGUProto
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55677
+64853
 Successfully changed project path to: C:/Users/gillian/_Client/NeverGrowUp/Unity/NGUProto
 C:/Users/gillian/_Client/NeverGrowUp/Unity/NGUProto
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 130.70 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 1.17 ms.
+Refreshing native plugins compatible for Editor in 204.20 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 1.14 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/gillian/_Client/NeverGrowUp/Unity/NGUProto/Assets
@@ -36,59 +36,1307 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004871 seconds.
+Registered in 0.004163 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 136.95 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 187.86 ms, found 7 plugins.
 Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.196 seconds
+- Completed reload, in  3.564 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014169 seconds.
+Registered in 0.013202 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 113.49 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 182.67 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.61.0
 Mono: successfully reloaded assembly
-- Completed reload, in  2.134 seconds
+- Completed reload, in  2.499 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.33 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 2.44 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 3056 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 354.8 MB.
+System memory in use after: 354.9 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3512.
+Total: 5.668400 ms (FindLiveObjects: 0.740800 ms CreateObjectMapping: 0.352900 ms MarkObjects: 4.360300 ms  DeleteObjects: 0.211800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/InputSystem.inputsettings.asset
+  artifactKey: Guid(4325392f8ee5aa647b60fe193db9fff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem.inputsettings.asset using Guid(4325392f8ee5aa647b60fe193db9fff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db91610f5695427e09f26e554e95131') in 0.101099 seconds
+  Import took 0.109862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 173.953933 seconds.
+  path: Assets/BNG Framework/Models/Hands/hands_r_gloves_mat06.fbx
+  artifactKey: Guid(95ce9f4c6f9d92a46b626a353c690dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/Hands/hands_r_gloves_mat06.fbx using Guid(95ce9f4c6f9d92a46b626a353c690dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab30edcb8789d8690c8566a2e3b705b9') in 0.230777 seconds
+  Import took 0.239451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/BNG Framework/Models/Hands/hands_r_gloves_mat06.prefab
+  artifactKey: Guid(9bf6018d1335b0e47a3c20da159f235d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/Hands/hands_r_gloves_mat06.prefab using Guid(9bf6018d1335b0e47a3c20da159f235d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e04c8bdb66c76e1fac0400b451853d6') in 0.059769 seconds
+  Import took 0.069090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/BNG Framework/Models/Hands/hands_r_gloves_mat06.fbx
+  artifactKey: Guid(95ce9f4c6f9d92a46b626a353c690dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/Hands/hands_r_gloves_mat06.fbx using Guid(95ce9f4c6f9d92a46b626a353c690dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab30edcb8789d8690c8566a2e3b705b9') in 0.043252 seconds
+  Import took 0.051178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/BNG Framework/Models/Hands/hands_r_gloves_mat06.prefab
+  artifactKey: Guid(9bf6018d1335b0e47a3c20da159f235d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/Hands/hands_r_gloves_mat06.prefab using Guid(9bf6018d1335b0e47a3c20da159f235d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e04c8bdb66c76e1fac0400b451853d6') in 0.032659 seconds
+  Import took 0.041171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.517315 seconds.
+  path: Assets/BNG Framework/Models/Hands/OculusHands
+  artifactKey: Guid(db9705e83c9dcbd46b5ae80e9a4d5c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/Hands/OculusHands using Guid(db9705e83c9dcbd46b5ae80e9a4d5c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd223b9816a6ff3d929cd594a883054bd') in 0.009034 seconds
+  Import took 0.016933 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011944 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.905 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 361.6 MB.
+System memory in use after: 361.7 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3527.
+Total: 4.288100 ms (FindLiveObjects: 0.756700 ms CreateObjectMapping: 0.269900 ms MarkObjects: 3.085300 ms  DeleteObjects: 0.173800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011162 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.764 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 361.6 MB.
+System memory in use after: 361.7 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3531.
+Total: 3.762000 ms (FindLiveObjects: 0.414200 ms CreateObjectMapping: 0.267300 ms MarkObjects: 2.901400 ms  DeleteObjects: 0.176900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011599 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.054 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 361.6 MB.
+System memory in use after: 361.8 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3535.
+Total: 4.769400 ms (FindLiveObjects: 0.435600 ms CreateObjectMapping: 0.231400 ms MarkObjects: 3.898700 ms  DeleteObjects: 0.201800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010936 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.759 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.87 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 361.7 MB.
+System memory in use after: 361.8 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3539.
+Total: 3.939300 ms (FindLiveObjects: 0.449200 ms CreateObjectMapping: 0.311100 ms MarkObjects: 2.994900 ms  DeleteObjects: 0.182200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011207 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.672 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 361.7 MB.
+System memory in use after: 361.8 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3543.
+Total: 3.642900 ms (FindLiveObjects: 0.376000 ms CreateObjectMapping: 0.264400 ms MarkObjects: 2.830500 ms  DeleteObjects: 0.170600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011770 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.909 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 7 plugins.
 Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 2522 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 332.7 MB.
-System memory in use after: 332.9 MB.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 361.7 MB.
+System memory in use after: 361.8 MB.
 
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2994.
-Total: 3.799100 ms (FindLiveObjects: 0.477000 ms CreateObjectMapping: 0.235500 ms MarkObjects: 2.965100 ms  DeleteObjects: 0.119800 ms)
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3547.
+Total: 4.131400 ms (FindLiveObjects: 0.391900 ms CreateObjectMapping: 0.221600 ms MarkObjects: 3.348300 ms  DeleteObjects: 0.168000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011118 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.808 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 361.7 MB.
+System memory in use after: 361.8 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3551.
+Total: 4.036000 ms (FindLiveObjects: 0.472600 ms CreateObjectMapping: 0.256200 ms MarkObjects: 3.101300 ms  DeleteObjects: 0.204100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011335 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.79 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.744 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 361.6 MB.
+System memory in use after: 361.8 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3555.
+Total: 3.997200 ms (FindLiveObjects: 0.447300 ms CreateObjectMapping: 0.242700 ms MarkObjects: 3.129000 ms  DeleteObjects: 0.176200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015774 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.819 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.79 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 361.6 MB.
+System memory in use after: 361.8 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3559.
+Total: 4.355600 ms (FindLiveObjects: 0.423000 ms CreateObjectMapping: 0.226000 ms MarkObjects: 3.466200 ms  DeleteObjects: 0.238500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011505 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.704 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 361.7 MB.
+System memory in use after: 361.8 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3563.
+Total: 3.954600 ms (FindLiveObjects: 0.424300 ms CreateObjectMapping: 0.225600 ms MarkObjects: 3.126000 ms  DeleteObjects: 0.176400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017857 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.79 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.988 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 361.7 MB.
+System memory in use after: 361.8 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3567.
+Total: 4.170600 ms (FindLiveObjects: 0.397700 ms CreateObjectMapping: 0.277500 ms MarkObjects: 3.322600 ms  DeleteObjects: 0.171300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011952 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.960 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 361.7 MB.
+System memory in use after: 361.8 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3571.
+Total: 4.064700 ms (FindLiveObjects: 0.398400 ms CreateObjectMapping: 0.308900 ms MarkObjects: 3.183100 ms  DeleteObjects: 0.172500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/MobileDepthWater/Scenes
-  artifactKey: Guid(2caf604f4a11e0641b289d84e1cc22c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDepthWater/Scenes using Guid(2caf604f4a11e0641b289d84e1cc22c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ca0cdf82ba8b241e0f95322b62879e') in 0.016499 seconds
-  Import took 0.022977 seconds .
+  Time since last request: 4322.784967 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
+  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d5558f03e795f216f7f29785091b5c') in 0.175940 seconds
+  Import took 0.184083 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/MobileDepthWater/Scenes/DemoScene.unity
-  artifactKey: Guid(56af498a20d7fb14ab9dd5bbde060f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDepthWater/Scenes/DemoScene.unity using Guid(56af498a20d7fb14ab9dd5bbde060f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951725f88b93625c125e9f528aab8ff8') in 0.018583 seconds
-  Import took 0.025983 seconds .
+  Time since last request: 0.000311 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/UnityChanShader/Materials/body.mat
+  artifactKey: Guid(3b399c72488294c53b66f39632a8fe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/UnityChanShader/Materials/body.mat using Guid(3b399c72488294c53b66f39632a8fe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9393cda7aae71198999da709b4ccd37') in 0.079036 seconds
+  Import took 0.087328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat
+  artifactKey: Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat using Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18b71994742d88d97c1c2a21580d2d7') in 0.024107 seconds
+  Import took 0.031449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba1bb398137a00be6e06e68b72b365d') in 0.059766 seconds
+  Import took 0.067341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
+  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0993877c1c0e22b53a69262c6ee2775') in 0.161375 seconds
+  Import took 0.168730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Plugins/Obi/Samples/RopeAndRod/SampleResources/Materials/ChainRed.mat
+  artifactKey: Guid(b74081a5a5bbf418ea9f95bfec18f393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Obi/Samples/RopeAndRod/SampleResources/Materials/ChainRed.mat using Guid(b74081a5a5bbf418ea9f95bfec18f393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845da38d7e640b5d4f45901ffe8ede55') in 0.026452 seconds
+  Import took 0.034880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Plugins/Obi/Samples/RopeAndRod/SampleResources/Materials/ChainWhite.mat
+  artifactKey: Guid(edc856900ac3941a98996e21e91e215e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Obi/Samples/RopeAndRod/SampleResources/Materials/ChainWhite.mat using Guid(edc856900ac3941a98996e21e91e215e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c96ba9dd951bf4d576f3184b795d6b1') in 0.026410 seconds
+  Import took 0.035007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat
+  artifactKey: Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat using Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a5ca144293083340976837f0521db0') in 0.426967 seconds
+  Import took 0.435646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/body.mat
+  artifactKey: Guid(bb570020a8c3bad4bbf803af20e78937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/body.mat using Guid(bb570020a8c3bad4bbf803af20e78937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58b6236a63aa002fdb56bea17b8d380') in 0.018845 seconds
+  Import took 0.026343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Plugins/MobileDepthWater/Materials/BoatTop.mat
+  artifactKey: Guid(261c4caf1e4fb3841b93e6f84a3de745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/MobileDepthWater/Materials/BoatTop.mat using Guid(261c4caf1e4fb3841b93e6f84a3de745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63509fc690c558cab4df1cbc283d206') in 0.026032 seconds
+  Import took 0.033534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.307884 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/Assets/Materials/ColorWhite.mat
+  artifactKey: Guid(223d34e677ed1944a9c7e65ada9f6e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/Assets/Materials/ColorWhite.mat using Guid(223d34e677ed1944a9c7e65ada9f6e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ed4d95b0b9deaec623e72efc73edfe') in 0.025274 seconds
+  Import took 0.034056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+  artifactKey: Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat using Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cf10a232fb1e9761a31632be84bc7c') in 0.282073 seconds
+  Import took 0.290914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/Assets/Materials/ColorWhite.mat
+  artifactKey: Guid(223d34e677ed1944a9c7e65ada9f6e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/Assets/Materials/ColorWhite.mat using Guid(223d34e677ed1944a9c7e65ada9f6e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ed4d95b0b9deaec623e72efc73edfe') in 0.014846 seconds
+  Import took 0.022629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Plugins/Obi/Editor/Resources/EditorLines.mat
+  artifactKey: Guid(f3999384313644fe3b9ba16589efe636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Obi/Editor/Resources/EditorLines.mat using Guid(f3999384313644fe3b9ba16589efe636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c838d4144428c3f67126ada058df6240') in 0.024088 seconds
+  Import took 0.032761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Plugins/Obi/Editor/Resources/EditorParticle.mat
+  artifactKey: Guid(8c668cf76c548481c80404cce80ab834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Obi/Editor/Resources/EditorParticle.mat using Guid(8c668cf76c548481c80404cce80ab834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8c6f92b1304528d29af8c49257a282') in 0.025509 seconds
+  Import took 0.032565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.753916 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecbacf0b5b681b775f225c866b98f6e') in 0.021823 seconds
+  Import took 0.028998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/eyeline.mat
+  artifactKey: Guid(407f97b032a277c44b753ed1c256a3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/eyeline.mat using Guid(407f97b032a277c44b753ed1c256a3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671389d8fbfb479edf9e8a82d4bda361') in 0.039065 seconds
+  Import took 0.046070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/UnityChanShader/Materials/eyeline.mat
+  artifactKey: Guid(7bac98231102243919a4534a06cc74ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/UnityChanShader/Materials/eyeline.mat using Guid(7bac98231102243919a4534a06cc74ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba772fb562be526fcf08bd44f3159d41') in 0.015581 seconds
+  Import took 0.023053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/face.mat
+  artifactKey: Guid(4d83bd267b90e934e88637afcd02cb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/face.mat using Guid(4d83bd267b90e934e88637afcd02cb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5ef136b7dfa4df4efc8acd8d6397e4') in 0.036685 seconds
+  Import took 0.043792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904844437b291f10e51a185b3b00758c') in 0.035187 seconds
+  Import took 0.042775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0d3d5e9fbf8ba6903c17dcbf477454') in 0.026109 seconds
+  Import took 0.033444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/UnityChanShader/Materials/eyebase.mat
+  artifactKey: Guid(c7d8484a18b294b4ea192d6a82f2e0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/UnityChanShader/Materials/eyebase.mat using Guid(c7d8484a18b294b4ea192d6a82f2e0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4475551fbdba6d250ca3941ac0312f74') in 0.029559 seconds
+  Import took 0.037611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/eyebase.mat
+  artifactKey: Guid(9bec51fc47eda6047ba5cc01addbf46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/eyebase.mat using Guid(9bec51fc47eda6047ba5cc01addbf46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad7254d69ed23423b305febc04002d8') in 0.017015 seconds
+  Import took 0.024560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ac7beed70274322407e6f2201347ab') in 0.020347 seconds
+  Import took 0.027673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdddd331c3f1b7826858a8d92db67e39') in 0.019844 seconds
+  Import took 0.027285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/UnityChanShader/Materials/eye_L1.mat
+  artifactKey: Guid(a0186681a218f4550a84e6f0488e8b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/UnityChanShader/Materials/eye_L1.mat using Guid(a0186681a218f4550a84e6f0488e8b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ff417b7fe800e64aac63c5c7c4c67b') in 0.032488 seconds
+  Import took 0.039519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcbddb7e72e92fa3a6f13b2b0717c42') in 0.018620 seconds
+  Import took 0.025709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/eye_R1.mat
+  artifactKey: Guid(a87def7cf3654cc43add52e645fee2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/eye_R1.mat using Guid(a87def7cf3654cc43add52e645fee2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38a1301227a3c59d0f3031b59f09365') in 0.030670 seconds
+  Import took 0.037709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/eye_L1.mat
+  artifactKey: Guid(4987862c1c195e74c86994ba4bcbd812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/eye_L1.mat using Guid(4987862c1c195e74c86994ba4bcbd812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e77d274579e28a4c960e8511d289bd9') in 0.017067 seconds
+  Import took 0.024773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/UnityChanShader/Materials/face.mat
+  artifactKey: Guid(cb35fb92776d24a65827b1d3ab18fe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/UnityChanShader/Materials/face.mat using Guid(cb35fb92776d24a65827b1d3ab18fe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db3fb469e219d80a83a87a2711663fc') in 0.016300 seconds
+  Import took 0.023596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/UnityChanShader/Materials/eye_R1.mat
+  artifactKey: Guid(f37e71293707f43b9b83c1925ad01bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/UnityChanShader/Materials/eye_R1.mat using Guid(f37e71293707f43b9b83c1925ad01bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac72d79987c40eba890c10a19f2d71f') in 0.012359 seconds
+  Import took 0.019295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a682bbb39787555d96ca66a99595bfc7') in 0.016962 seconds
+  Import took 0.023853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.485514 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/Assets/Fonts/KenPixel Square.ttf
+  artifactKey: Guid(82f7bec7a276180439f293c3fa9e9315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/Assets/Fonts/KenPixel Square.ttf using Guid(82f7bec7a276180439f293c3fa9e9315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871672ad5631ad558477c1580af89964') in 0.026050 seconds
+  Import took 0.034521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Plugins/Obi/Samples/RopeAndRod/SampleResources/Materials/GreenRope.mat
+  artifactKey: Guid(03019be2b7a654429bf322c3ca0c7a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Obi/Samples/RopeAndRod/SampleResources/Materials/GreenRope.mat using Guid(03019be2b7a654429bf322c3ca0c7a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b308d89d6a998e0dd213d293d8bd46') in 0.022704 seconds
+  Import took 0.029917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/Assets/Fonts/KenPixel Square.ttf
+  artifactKey: Guid(82f7bec7a276180439f293c3fa9e9315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/Assets/Fonts/KenPixel Square.ttf using Guid(82f7bec7a276180439f293c3fa9e9315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871672ad5631ad558477c1580af89964') in 0.011833 seconds
+  Import took 0.018697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014818 seconds.
+  path: Assets/Plugins/Obi/Samples/RopeAndRod/SampleResources/Materials/GreenRope.mat
+  artifactKey: Guid(03019be2b7a654429bf322c3ca0c7a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Obi/Samples/RopeAndRod/SampleResources/Materials/GreenRope.mat using Guid(03019be2b7a654429bf322c3ca0c7a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b308d89d6a998e0dd213d293d8bd46') in 0.014868 seconds
+  Import took 0.022390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.261817 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+  artifactKey: Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4457526dabe3b1ee21207b5702e85636') in 0.028401 seconds
+  Import took 0.035763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+  artifactKey: Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat using Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb1a531bdeffaee745a9dd9c4f17fc2') in 0.033627 seconds
+  Import took 0.041129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/hair.mat
+  artifactKey: Guid(5ebb6caef8207d243a588a574971408c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/hair.mat using Guid(5ebb6caef8207d243a588a574971408c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d89a2d290f411867d2c5edd14a374a') in 0.050915 seconds
+  Import took 0.058088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/UnityChanShader/Materials/hair.mat
+  artifactKey: Guid(0686b679809f14929a8d7f427cbb4da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/UnityChanShader/Materials/hair.mat using Guid(0686b679809f14929a8d7f427cbb4da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8225a1b00ec0ee1dc6abd0a647adbbac') in 0.018689 seconds
+  Import took 0.025747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.517133 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/Assets/Materials/Ice.mat
+  artifactKey: Guid(99e36f04ddf151745a0ab798e1d960e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/Assets/Materials/Ice.mat using Guid(99e36f04ddf151745a0ab798e1d960e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3590c09ac14a703eab97a8091476f91') in 0.025130 seconds
+  Import took 0.032246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008098 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/Assets/Materials/Ice.mat
+  artifactKey: Guid(99e36f04ddf151745a0ab798e1d960e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/Assets/Materials/Ice.mat using Guid(99e36f04ddf151745a0ab798e1d960e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3590c09ac14a703eab97a8091476f91') in 0.009828 seconds
+  Import took 0.016782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.607363 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/Left.mat
+  artifactKey: Guid(00cf17fb11d4e76448c2096f7ee6aa4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/Left.mat using Guid(00cf17fb11d4e76448c2096f7ee6aa4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc50f3b9cb69da1becd26b6533ebcc1') in 0.027147 seconds
+  Import took 0.034551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289988fcecf3b00d1602f8d2b589f7dd') in 0.041363 seconds
+  Import took 0.048622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
+  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530ab53d4647aa6af37f1765823d784d') in 0.041523 seconds
+  Import took 0.048382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c2210586957436df79bf961aeff06e') in 0.021193 seconds
+  Import took 0.028721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0d2861f60500f05bd29199894f7bb5') in 0.039912 seconds
+  Import took 0.046712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1280cc7be10b532b2897fc8654f95d3') in 0.059416 seconds
+  Import took 0.071105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
+  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1750271ec33564c9e991fc66a41ad3d0') in 0.193846 seconds
+  Import took 0.202230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
+  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07a3f0197d45ee33843239212d1c942') in 0.042644 seconds
+  Import took 0.050373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.057986 seconds.
+  path: Assets/Plugins/Obi/Samples/RopeAndRod/SampleResources/Materials/LineRope.mat
+  artifactKey: Guid(4cc7d840058664f0f9a679178b33b5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Obi/Samples/RopeAndRod/SampleResources/Materials/LineRope.mat using Guid(4cc7d840058664f0f9a679178b33b5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6e0a07f41a1f4503777777485d6821') in 0.040906 seconds
+  Import took 0.049090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/UnityChanShader/Materials/mat_cheek.mat
+  artifactKey: Guid(4efe8cdcc7b554591bde513d7bde06d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/UnityChanShader/Materials/mat_cheek.mat using Guid(4efe8cdcc7b554591bde513d7bde06d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5691f4a4c6cff6f6f0ae0e922ad3263') in 0.034416 seconds
+  Import took 0.041525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/mat_cheek.mat
+  artifactKey: Guid(5f9d44654b83160428d7c4cf276b3572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/mat_cheek.mat using Guid(5f9d44654b83160428d7c4cf276b3572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a437db24d812cbfa5cf977350cbf2eeb') in 0.013376 seconds
+  Import took 0.020604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062755 seconds.
+  path: Assets/Plugins/MobileDepthWater/Models/Materials/Material.001.mat
+  artifactKey: Guid(35da0d8386247d6459d260a998ce047d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/MobileDepthWater/Models/Materials/Material.001.mat using Guid(35da0d8386247d6459d260a998ce047d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd767c414e24a3c108cf2b5f3fd96e850') in 0.025111 seconds
+  Import took 0.033026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009770 seconds.
+  path: Assets/Plugins/MobileDepthWater/Models/Materials/Material.001.mat
+  artifactKey: Guid(35da0d8386247d6459d260a998ce047d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/MobileDepthWater/Models/Materials/Material.001.mat using Guid(35da0d8386247d6459d260a998ce047d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd767c414e24a3c108cf2b5f3fd96e850') in 0.010795 seconds
+  Import took 0.017812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.562404 seconds.
+  path: Assets/Plugins/MobileDepthWater/Models/Materials/No Name.mat
+  artifactKey: Guid(b95d43a731c0290429cf10bf703c9b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/MobileDepthWater/Models/Materials/No Name.mat using Guid(b95d43a731c0290429cf10bf703c9b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271dccd3a1f68f8016857a21e37ff5f8') in 0.024967 seconds
+  Import took 0.032541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd214e28bdeb8e7d744101e38a9ef9c0f') in 0.021278 seconds
+  Import took 0.028536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Plugins/MobileDepthWater/Models/Materials/No Name.mat
+  artifactKey: Guid(b95d43a731c0290429cf10bf703c9b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/MobileDepthWater/Models/Materials/No Name.mat using Guid(b95d43a731c0290429cf10bf703c9b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271dccd3a1f68f8016857a21e37ff5f8') in 0.010422 seconds
+  Import took 0.017551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011600 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd214e28bdeb8e7d744101e38a9ef9c0f') in 0.012849 seconds
+  Import took 0.019987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.554437 seconds.
+  path: Assets/Plugins/Obi/Editor/Resources/PaddingMaterial.mat
+  artifactKey: Guid(8c11f7c3415044fd9b6bc7896f38f9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Obi/Editor/Resources/PaddingMaterial.mat using Guid(8c11f7c3415044fd9b6bc7896f38f9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fca90c8052dcfd7a2ad931b0284949e') in 0.026895 seconds
+  Import took 0.035266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005447 seconds.
+  path: Assets/Plugins/Obi/Editor/Resources/PaddingMaterial.mat
+  artifactKey: Guid(8c11f7c3415044fd9b6bc7896f38f9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Obi/Editor/Resources/PaddingMaterial.mat using Guid(8c11f7c3415044fd9b6bc7896f38f9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fca90c8052dcfd7a2ad931b0284949e') in 0.009180 seconds
+  Import took 0.016006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.246638 seconds.
+  path: Assets/Plugins/Obi/Editor/Resources/PropertyGradientMaterial.mat
+  artifactKey: Guid(cd3a36913cf194d75a271606ea32cde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Obi/Editor/Resources/PropertyGradientMaterial.mat using Guid(cd3a36913cf194d75a271606ea32cde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816c2d84d762fc64def246ab4620e851') in 0.026881 seconds
+  Import took 0.034634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/Right.mat
+  artifactKey: Guid(88157e674d7d0314db76940c73b69405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/Right.mat using Guid(88157e674d7d0314db76940c73b69405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce660d7d0ae61444b38dae852e1b669a') in 0.023801 seconds
+  Import took 0.032079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Plugins/Obi/Samples/RopeAndRod/SampleResources/Materials/RedRope.mat
+  artifactKey: Guid(44ab0cc40b59345718856f6e1c1225f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Obi/Samples/RopeAndRod/SampleResources/Materials/RedRope.mat using Guid(44ab0cc40b59345718856f6e1c1225f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddd5f0c070b891e0c1c1b8d9df236fe') in 0.041766 seconds
+  Import took 0.048992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Plugins/Obi/Editor/Resources/PropertyGradientMaterial.mat
+  artifactKey: Guid(cd3a36913cf194d75a271606ea32cde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Obi/Editor/Resources/PropertyGradientMaterial.mat using Guid(cd3a36913cf194d75a271606ea32cde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816c2d84d762fc64def246ab4620e851') in 0.010032 seconds
+  Import took 0.016850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033910 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
+  artifactKey: Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat using Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0193c990cebd7bcd9d6b31ea7739d38') in 0.026674 seconds
+  Import took 0.035372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb93c09ad45f6e656fb1966a95741fa') in 0.020720 seconds
+  Import took 0.028363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
+  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b473d3532bac8111072f2cb19e40b057') in 0.168368 seconds
+  Import took 0.176623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Plugins/Obi/Samples/RopeAndRod/SampleResources/Materials/Rod.mat
+  artifactKey: Guid(9bc0d93bc33e445c7a765578064cdd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Obi/Samples/RopeAndRod/SampleResources/Materials/Rod.mat using Guid(9bc0d93bc33e445c7a765578064cdd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea91ddc753a273c4ff902c271b6d213') in 0.030889 seconds
+  Import took 0.038236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.264843 seconds.
+  path: Assets/Plugins/FlatKit/PresetsShared/Materials/SimpleCel01_StylSurf_Single.mat
+  artifactKey: Guid(631d28fabcf7c46c2a30a647eef5b155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FlatKit/PresetsShared/Materials/SimpleCel01_StylSurf_Single.mat using Guid(631d28fabcf7c46c2a30a647eef5b155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2199fdc50c487312d20cee14dac97afa') in 0.031675 seconds
+  Import took 0.039040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002845 seconds.
+  path: Assets/Plugins/FlatKit/PresetsShared/Materials/SimpleCel01_StylSurf_Single.mat
+  artifactKey: Guid(631d28fabcf7c46c2a30a647eef5b155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FlatKit/PresetsShared/Materials/SimpleCel01_StylSurf_Single.mat using Guid(631d28fabcf7c46c2a30a647eef5b155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2199fdc50c487312d20cee14dac97afa') in 0.009924 seconds
+  Import took 0.016970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090418 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/skin1.mat
+  artifactKey: Guid(ca131910d5c9a634dbdd38e77111033f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/skin1.mat using Guid(ca131910d5c9a634dbdd38e77111033f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6ccd4cb2a85f8c64f1f4dcc0c9a547') in 0.033336 seconds
+  Import took 0.040912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Plugins/MobileDepthWater/Materials/Skybox/Skybox.mat
+  artifactKey: Guid(e888bdf6b22fcc242a525c402432772f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/MobileDepthWater/Materials/Skybox/Skybox.mat using Guid(e888bdf6b22fcc242a525c402432772f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47cace8bcd52eb576cb68cf96ec5c64e') in 0.040374 seconds
+  Import took 0.048315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/skin1.mat
+  artifactKey: Guid(ca131910d5c9a634dbdd38e77111033f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/Materials/skin1.mat using Guid(ca131910d5c9a634dbdd38e77111033f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6ccd4cb2a85f8c64f1f4dcc0c9a547') in 0.017911 seconds
+  Import took 0.025747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/UnityChanShader/Materials/skin1.mat
+  artifactKey: Guid(4b91d906c72fd4447bfabbdd767e31ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Mesh Distortion Lite/Examples/UnityChan/Models/UnityChanShader/Materials/skin1.mat using Guid(4b91d906c72fd4447bfabbdd767e31ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0c34b2550ec5be35a602710b6dcd59') in 0.018559 seconds
+  Import took 0.025713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.370415 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+  artifactKey: Guid(22262639920f43d6be32430e4e58350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat using Guid(22262639920f43d6be32430e4e58350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f087dcf16cec75a6974325e7c470dd37') in 0.026614 seconds
+  Import took 0.034619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Plugins/Obi/Samples/RopeAndRod/SampleResources/Materials/Snake.mat
+  artifactKey: Guid(dbda366779bfb4406b2c60e70986d306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Obi/Samples/RopeAndRod/SampleResources/Materials/Snake.mat using Guid(dbda366779bfb4406b2c60e70986d306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a1ca0fba69c80b49fea665b7f515c9') in 0.023095 seconds
+  Import took 0.030529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.506593 seconds.
+  path: Assets/Plugins/Obi/Editor/Resources/TopologyPreview.mat
+  artifactKey: Guid(62dd1825e029c4d6291eb024124c520a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Obi/Editor/Resources/TopologyPreview.mat using Guid(62dd1825e029c4d6291eb024124c520a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea38550952566a57e13a246c26426a5b') in 0.025596 seconds
+  Import took 0.032927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Plugins/Obi/Editor/Resources/TopologyPreviewBorder.mat
+  artifactKey: Guid(83b0018e22cec4650b2f51e7b1cae99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Obi/Editor/Resources/TopologyPreviewBorder.mat using Guid(83b0018e22cec4650b2f51e7b1cae99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc08d51506d19ee5defa3772a36dca27') in 0.025475 seconds
+  Import took 0.032615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Plugins/Obi/Editor/Resources/TopologyPreview.mat
+  artifactKey: Guid(62dd1825e029c4d6291eb024124c520a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Obi/Editor/Resources/TopologyPreview.mat using Guid(62dd1825e029c4d6291eb024124c520a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea38550952566a57e13a246c26426a5b') in 0.010337 seconds
+  Import took 0.018233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014960 seconds.
+  path: Assets/Plugins/Obi/Editor/Resources/TopologyPreviewBorder.mat
+  artifactKey: Guid(83b0018e22cec4650b2f51e7b1cae99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Obi/Editor/Resources/TopologyPreviewBorder.mat using Guid(83b0018e22cec4650b2f51e7b1cae99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc08d51506d19ee5defa3772a36dca27') in 0.009195 seconds
+  Import took 0.016071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.558193 seconds.
+  path: Assets/Plugins/Obi/Editor/Resources/UVSpaceColorMaterial.mat
+  artifactKey: Guid(8d64d32033a9145218d8c42c02e53b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Obi/Editor/Resources/UVSpaceColorMaterial.mat using Guid(8d64d32033a9145218d8c42c02e53b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2100b711f87820671fd08b1e10622d1') in 0.027259 seconds
+  Import took 0.036090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008547 seconds.
+  path: Assets/Plugins/Obi/Editor/Resources/UVSpaceColorMaterial.mat
+  artifactKey: Guid(8d64d32033a9145218d8c42c02e53b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Obi/Editor/Resources/UVSpaceColorMaterial.mat using Guid(8d64d32033a9145218d8c42c02e53b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2100b711f87820671fd08b1e10622d1') in 0.010713 seconds
+  Import took 0.018431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.163096 seconds.
+  path: Assets/Materials/HandLineUp.mat
+  artifactKey: Guid(e02d0e5676a1e004290804ba01724e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/HandLineUp.mat using Guid(e02d0e5676a1e004290804ba01724e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d73016aeeb0a470e753f1bd94401795') in 0.016921 seconds
+  Import took 0.025516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 179.129491 seconds.
+  path: Assets/Materials/5-Grape.mat
+  artifactKey: Guid(1a0985b0b35ff4a49bb2614bb9695f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/5-Grape.mat using Guid(1a0985b0b35ff4a49bb2614bb9695f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7dd7da85f3b94e27eec48bccc67800c') in 0.017569 seconds
+  Import took 0.025324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Materials/HandLineUp.mat
+  artifactKey: Guid(e02d0e5676a1e004290804ba01724e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/HandLineUp.mat using Guid(e02d0e5676a1e004290804ba01724e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c14de786c5902bd5fa4b7089706944c') in 0.022055 seconds
+  Import took 0.030042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004492 seconds.
+  path: Assets/Materials/HandLineUp.mat
+  artifactKey: Guid(e02d0e5676a1e004290804ba01724e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/HandLineUp.mat using Guid(e02d0e5676a1e004290804ba01724e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c14de786c5902bd5fa4b7089706944c') in 0.011435 seconds
+  Import took 0.018228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.335449 seconds.
+  path: Assets/Materials/Match.mat
+  artifactKey: Guid(1a0985b0b35ff4a49bb2614bb9695f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Match.mat using Guid(1a0985b0b35ff4a49bb2614bb9695f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f981b60189a519025a8340d50272c73c') in 0.016973 seconds
+  Import took 0.024842 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012250 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.61 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.769 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 2941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 362.3 MB.
+System memory in use after: 362.5 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3615.
+Total: 4.454700 ms (FindLiveObjects: 0.451800 ms CreateObjectMapping: 0.266500 ms MarkObjects: 3.562600 ms  DeleteObjects: 0.172000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.209120 seconds.
+  path: Assets/Materials/NicerOutline.cs
+  artifactKey: Guid(7621a3d57bbe08842aea797ea80963b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/NicerOutline.cs using Guid(7621a3d57bbe08842aea797ea80963b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5adb19ec607cb45a42e874cc97ef212') in 0.019867 seconds
+  Import took 0.027196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025546 seconds.
+  path: Assets/Materials/NicerOutline.cs
+  artifactKey: Guid(7621a3d57bbe08842aea797ea80963b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/NicerOutline.cs using Guid(7621a3d57bbe08842aea797ea80963b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5adb19ec607cb45a42e874cc97ef212') in 0.003215 seconds
+  Import took 0.010130 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011630 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.47 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.025 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 362.3 MB.
+System memory in use after: 362.5 MB.
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 3618.
+Total: 3.899200 ms (FindLiveObjects: 0.410100 ms CreateObjectMapping: 0.238900 ms MarkObjects: 3.075700 ms  DeleteObjects: 0.172800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.494940 seconds.
+  path: Assets/Materials/Match.mat
+  artifactKey: Guid(1a0985b0b35ff4a49bb2614bb9695f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Match.mat using Guid(1a0985b0b35ff4a49bb2614bb9695f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6a6513915846e9855b5f4571423c49') in 0.155191 seconds
+  Import took 0.164162 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014677 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.53 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.731 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 2.51 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2943 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 362.6 MB.
+System memory in use after: 362.7 MB.
+
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 3624.
+Total: 5.935200 ms (FindLiveObjects: 0.635100 ms CreateObjectMapping: 0.369300 ms MarkObjects: 4.516400 ms  DeleteObjects: 0.411500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.073571 seconds.
+  path: Assets/Highlights/Facepunch.Highlight.asmdef
+  artifactKey: Guid(3e8112d1aabcd3741934dbebf489281a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highlights/Facepunch.Highlight.asmdef using Guid(3e8112d1aabcd3741934dbebf489281a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aac4273f06f4d2c6a0223325d343832') in 0.016935 seconds
+  Import took 0.024765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Highlights/Hand_Low_FBX.fbx
+  artifactKey: Guid(e8f21325443748b4d9f3e3a6c3a1514d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highlights/Hand_Low_FBX.fbx using Guid(e8f21325443748b4d9f3e3a6c3a1514d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33eaed428ed9b2688b3310418a76c88') in 0.144449 seconds
+  Import took 0.151999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Highlights/Material.mat
+  artifactKey: Guid(afb904806cc4a18459fc7342cde8b6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highlights/Material.mat using Guid(afb904806cc4a18459fc7342cde8b6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90213dd1cab7b27fd22292f1a896f992') in 0.018168 seconds
+  Import took 0.025683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Highlights/HighlightMesh.mat
+  artifactKey: Guid(5442aadb1d604784397e2370bdf87c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highlights/HighlightMesh.mat using Guid(5442aadb1d604784397e2370bdf87c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e0120d2c02580a3fdbf251dfb1603a') in 0.018832 seconds
+  Import took 0.026379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Highlights/HighlightImageEffect.mat
+  artifactKey: Guid(c72ec7131d4b6604582569c3aa8b2cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highlights/HighlightImageEffect.mat using Guid(c72ec7131d4b6604582569c3aa8b2cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2814af7e10fc22b59ab7aee9caca726') in 0.019919 seconds
+  Import took 0.027941 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022125 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.29 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.578 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 2.47 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 362.3 MB.
+System memory in use after: 362.5 MB.
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 3628.
+Total: 6.695900 ms (FindLiveObjects: 0.694500 ms CreateObjectMapping: 0.475700 ms MarkObjects: 5.288700 ms  DeleteObjects: 0.234200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011085 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.655 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 362.4 MB.
+System memory in use after: 362.5 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3632.
+Total: 3.877000 ms (FindLiveObjects: 0.486000 ms CreateObjectMapping: 0.240900 ms MarkObjects: 2.966200 ms  DeleteObjects: 0.182000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013456 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.05 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.910 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.79 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 362.4 MB.
+System memory in use after: 362.5 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3636.
+Total: 4.394100 ms (FindLiveObjects: 0.464800 ms CreateObjectMapping: 0.262000 ms MarkObjects: 3.494500 ms  DeleteObjects: 0.170700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012753 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.20 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.488 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 362.4 MB.
+System memory in use after: 362.5 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3640.
+Total: 6.045700 ms (FindLiveObjects: 0.503500 ms CreateObjectMapping: 0.258500 ms MarkObjects: 5.038600 ms  DeleteObjects: 0.242400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012557 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.829 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 362.4 MB.
+System memory in use after: 362.5 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3644.
+Total: 4.072300 ms (FindLiveObjects: 0.410300 ms CreateObjectMapping: 0.231900 ms MarkObjects: 3.253300 ms  DeleteObjects: 0.175200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1453.459270 seconds.
+  path: Assets/Temp/simio-monkey-dancing/source/monkey_dancing.fbx
+  artifactKey: Guid(7702640aaca6483479360433368e88dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/simio-monkey-dancing/source/monkey_dancing.fbx using Guid(7702640aaca6483479360433368e88dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc599e0469095e24b94e1c4fdd49e44') in 0.217283 seconds
+  Import took 0.225734 seconds .
 
