@@ -13,19 +13,21 @@ public class TriggerEnd : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("Um, actually...");
+      //  Debug.Log("Um, actually...");
 
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Trigger");
+    
 
         if (other.gameObject.tag == "EndObject")
 
         {
-            DebugSystem.GameOver();
-            Debug.Log("RealTrigger");
+            SlimeCounter.GameOver();
+
+
+            StartCoroutine(FindObjectOfType<FadeToPink>().FadeAndLoadScene(FadeToPink.FadeDirection.In, "ACT2"));
         }
 
 

@@ -5,7 +5,12 @@ using UnityEngine.UI;
 using TMPro;
 public class SlimeCounter : MonoBehaviour
 {
-    public TMP_Text DebugText;
+
+    private static SlimeCounter _instance;
+    public static SlimeCounter Instance { get { return _instance; } }
+
+
+ 
 
     [Header("Counters")]
     public int slimeStartCounter;
@@ -23,35 +28,62 @@ public class SlimeCounter : MonoBehaviour
     public Transform slimeBoxtarget;
     public bool startSlime = false;
 
+    [Header("Game Over")]
 
-         
+    public GameObject GameOverPanel;
+    public static void GameOver()
+    {
+      _instance.GameOverPanel.SetActive(true);
+    }
 
     private void Start()
     {
-      
+        GameOverPanel.SetActive(false);
 
-     slimeStartCounterCurrent = slimeStartCounter;
+        slimeStartCounterCurrent = slimeStartCounter;
     slimeRiseCounterCurrent = slimeRiseCounter;
 
         startPosition = slimePlane.transform.position;
 }
 
-    // Update is called once per frame
+    private void Awake()
+    {
+        if (_instance != null && _instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            _instance = this;
+        }
+    }
     void Update()
     {
     Timer();
 
 
+        DebugSystem.UpdateDebug(" Start:  " + slimeStartCounterCurrent + " Rise:  " + slimeRiseCounter);
 
 
 
-    DebugText.text = " Start:  " + slimeStartCounterCurrent + " Rise:  " + slimeRiseCounter;
+
+
         if (startSlime)
         {
             t += Time.deltaTime / slimeRiseCounterCurrent;
             slimePlane.transform.position = Vector3.Lerp(startPosition, target.position, t);
 
             slimeBox.transform.position = Vector3.Lerp(startPosition, slimeBoxtarget.position, t);
+
+            if (slimeBox.transform.position == slimeBoxtarget.position)
+            {
+              GameOver();
+                StartCoroutine(FindObjectOfType<FadeToPink>().FadeAndLoadScene(FadeToPink.FadeDirection.In, "ACT2"));
+
+
+
+
+            }
 
         }
 
@@ -62,7 +94,7 @@ public class SlimeCounter : MonoBehaviour
        if( slimeStartCounterCurrent < 0)
         {
 
-            Debug.Log("Raise water line");
+
             startSlime = true;
 
 

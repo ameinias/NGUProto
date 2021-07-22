@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class DebugSystem : MonoBehaviour
 {
@@ -9,12 +11,15 @@ public class DebugSystem : MonoBehaviour
 
     public static DebugSystem Instance { get { return _instance; } }
 
-
-    [Header("Game Over")]
-
-    public GameObject GameOverPanel; 
+    public TMP_Text DebugText;
 
 
+
+    public static void UpdateDebug(string value)
+    {
+
+        _instance.DebugText.text = value;
+}
     private void Awake()
     {
         if (_instance != null && _instance != this)
@@ -30,23 +35,14 @@ public class DebugSystem : MonoBehaviour
     void Start()
     {
 
-        GameOverPanel.SetActive(false);
+      
     }
 
-    // Update is called once per frame
     void Update()
     {
        
     }
 
-
-
-
-
-    public static void GameOver()
-    {
-        _instance.GameOverPanel.SetActive(true);
-    }
 
 
 }

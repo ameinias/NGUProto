@@ -9,8 +9,26 @@ EditorBuildSettings:
     path: Assets/Scenes/emptyTest.unity
     guid: 816bd29a3909681469204549fff17a19
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 157dbd329baab914681b44f09152d37e
+  - enabled: 1
     path: Assets/Scenes/TestVR_A1_L2_ParedDown.unity
     guid: 781e3928dbfc80c449c7dbe6c2a74bf5
+  - enabled: 1
+    path: Assets/Scenes/ACT2.unity
+    guid: 5e587f70c76e6544e8223309c8b896cb
+  - enabled: 1
+    path: Assets/Plugins/Obi/Samples/Fluid/FluidMill.unity
+    guid: 9860fb425edca487a80addb377d09e55
+  - enabled: 1
+    path: Assets/Plugins/Obi/Samples/RopeAndRod/FreightLift.unity
+    guid: f2c99bab98af74a5ebf6edfe56636bc8
+  - enabled: 1
+    path: Assets/Scenes/RopeCuttingGB.unity
+    guid: 8508ff6941719944f831de11f779bf64
+  - enabled: 1
+    path: Assets/Plugins/Obi/Samples/RopeAndRod/RopeCutting.unity
+    guid: 14b5ad4d00c9f4b118c479057ad1a580
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c9bec8d79f398c14293b7206bcfce47b,
       type: 2}
